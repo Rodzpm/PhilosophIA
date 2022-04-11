@@ -3,8 +3,8 @@ import openai
 from googletrans import Translator
 cls = lambda: os.system('cls' if os.name in ('nt', 'dos') else 'clear')
 
-openai.api_key = "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"
-lang = "fr"
+openai.api_key = "Put your key here" 
+lang = "fr" #Default language: French
 
 def rep(query):
     response = openai.Completion.create(
